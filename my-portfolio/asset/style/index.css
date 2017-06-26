@@ -1,0 +1,118 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+}
+
+body{
+	margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+background: linear-gradient(-90deg, black, #666);
+}
+
+
+header{
+	margin-top:5px;
+	height:120px;
+	width:100%;
+	/*background-color:green;*/
+	}
+
+.container{
+	padding:0, auto;
+	margin:0, auto;
+	/*width:90%;*/
+}
+
+
+.navbar{
+	background-color:rgba(58, 59, 73, 0.6);
+
+	}
+
+
+
+.nav-container{
+	width:90%;
+	margin:auto;
+	/*background-color:red;*/
+}
+
+.nav-container .logo{
+	float:left;
+	margin-top:10px;
+	}
+
+.nav-container img{
+	/*background-color:red;*/
+	}
+
+
+.nav-container .collapse{
+	/*background-color:blue;*/
+	float:right;
+	}
+/*.nav-container ul{
+	background-color:blue;
+	}
+*/
+
+.page-scroll a{
+	color:#fff;
+	}
+
+
+.page-scroll a:hover{
+	color:#000;
+	}
+
+
+
+
+.navbar-toggle{
+	border-color: #fff;
+	}
+
+.navbar-toggle .icon-bar{
+    background-color: #ddd;
+	}
+
+
+.jumbotron{
+	color:#fff;
+	/*background: linear-gradient(-90deg, black, gray);*/
+	background:none;
+	text-align: center;
+	}
+
+.jumbotron .title{
+	margin-top:120px;
+	margin-bottom:400px;
+	}
+
+
+.about-section{
+	background-color: red;
+	font-family:'Josefin Sans', sans-serif;
+	}
+	
+
+.about{
+	text-decoration: inherit;
+	font-family:'Josefin Sans', sans-serif;
+	}
+
+
+.para p{
+
+	font-size: 120%;
+	font-family:'Josefin Sans', sans-serif;
+	}
+
+
+
+
+
+
