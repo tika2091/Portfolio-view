@@ -96,38 +96,56 @@ header{
 .about-section{
 	font-family:georgia,'Josefin Sans', sans-serif;
 	}
+
+.about-section .box hr{
+	border-top: 1px solid #9b1a1a;
+	}
+
 	
 
 .about{
-height:100px;
-font-size: 300%;
-text-decoration:underline;
- 
+	font-size: 300%;
 	}
 
 
 
 
 .para p{
-
+	margin-top:50px;
+	margin-bottom:50px;
 	font-size: 120%;
 	}
 
 
 
-
-	.sample-section{
-		height:300px;
-		border:1px solid black;
-	}
-
-
 	.sample-section .box{
 		background-color:#ddd;
-
 		height:300px;
-	}
+		margin:10px;
+		}
 
+	.sample-section .sample{
+		width:100%;
+		margin:auto;
+		height:200px;
+		}
+
+	
+
+
+
+
+
+
+
+
+
+
+footer{
+	background-color:#aaa;
+	height:100px;
+	margin-top:10px;
+}
 
 
 
