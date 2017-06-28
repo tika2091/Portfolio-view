@@ -50,14 +50,6 @@ header{
 	}
 
 
-.nav-container .collapse{
-	/*background-color:blue;*/
-	float:right;
-	}
-/*.nav-container ul{
-	background-color:blue;
-	}
-*/
 
 .page-scroll a{
 	color:#fff;
@@ -97,9 +89,24 @@ header{
 	font-family:georgia,'Josefin Sans', sans-serif;
 	}
 
+
+	.about-section .decoration{
+		background-color:blue;
+	}
+
+
+
+
 .about-section .box hr{
 	border-top: 1px solid #9b1a1a;
 	}
+
+	.about-section hr{
+		float:left;
+		width:35%;
+	border-top: 1px solid #9b1a1a;
+	}
+
 
 	
 
@@ -147,6 +154,14 @@ footer{
 	margin-top:10px;
 }
 
+
+
+
+
+@media screen and (max-width: 768px){
+
+
+}
 
 
 
