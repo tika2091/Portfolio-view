@@ -20,11 +20,7 @@ header{
 	/*background-color:green;*/
 	}
 
-.container{
-	padding:0, auto;
-	margin:0, auto;
-	/*width:90%;*/
-}
+
 
 
 .navbar{
@@ -71,6 +67,15 @@ header{
     background-color: #ddd;
 	}
 
+.container{
+	padding:0, auto;
+	margin:0, auto;
+	/*background-color: #ccc;*/
+	width:90%;
+	}
+
+
+
 
 .jumbotron{
 	color:#fff;
@@ -88,7 +93,7 @@ header{
 
 	hr{
 		border-top:1px solid palegoldenrod;
-	}
+		}
 	
 
 
@@ -101,7 +106,7 @@ header{
 
 	.about{
 		font-size:200%;
-	}
+		}
 
 	#about{
 	/*background-color:blue;*/
@@ -143,24 +148,85 @@ header{
 	}
 
 
-
-	#tool-container{
-		/*background-color:#ccc;*/
-	}
-#left-iconbar{
-	background-color: #6C6C72;
-	padding:10px;
-	margin-top:10px;
-
-}
+	.skill-section{
+		/*background-color:blue;*/
+		height:70px;
+		}
 
 
-#right-iconbar{
-	background-color:#7b7b83;
-	padding:10px;
-	margin-top:10px;
+		#skills{
+		height:100px;
+		/*background-color:red;*/
+		}
 
-}
+		.skills{
+			color:#fff;
+			text-align:center;
+			font-size:200%;
+		}
+
+
+		.skill-section .right-bar{
+			width:35%;
+			float:left;
+			height:40px;
+			/*background-color:green;*/
+			}
+
+		.skill-section .mid-bar{
+			text-align: center;
+			width:30%;
+			height:40px;
+			float:left;
+			color:#fff;
+		/*	background-color:red;*/
+			}
+
+
+			.mid-bar h3{
+				margin:auto;
+				font-size:190%;
+				}
+
+		.skill-section .left-bar{
+			width:35%;float:left;
+			height:40px;
+		/*	background-color:green;*/
+			}
+
+
+
+		.skill-section hr{
+			width:70%;
+			margin-top:18px;
+			border:none;
+			height:1px;
+			background-color:palegoldenrod;
+			/*background-color:red;*/
+		}
+
+		.skill-section .left-bar hr{
+		float:right;
+		}
+
+
+
+
+/*..................icon sections.................*/
+
+
+	#left-iconbar{
+		background-color: #6C6C72;
+		padding:10px;
+		margin-top:10px;
+		}
+
+
+	#right-iconbar{
+		background-color:#7b7b83;
+		padding:10px;
+		margin-top:10px;
+		}
 
 	.software-name{
 		font-size:100%;
@@ -169,7 +235,7 @@ header{
 	/*	background-color:red;*/
 		margin:auto;
 		margin-top:5px;
-	}
+		}
 	
 
 	.icon-container{
@@ -190,10 +256,7 @@ header{
 
 
 
-	#skills{
-		height:100px;
-		/*background-color:red;*/
-	}
+
 
 	h4{
 		/*background-color:red;*/
@@ -230,31 +293,83 @@ footer{
 
 
 
+
+/*
+...................smaller device screen with media query...................
+*/
 @media screen and (max-width: 768px){
 
 
-.jumbotron .title{
-	margin-top:120px;
-	margin-bottom:150px;
-	}
-
-
-.jumbotron .title p{
-		/*color:palegoldenrod;*/
-		font-size:90%;
+	.jumbotron .title{
+		margin-top:120px;
+		margin-bottom:150px;
 		}
+
+
+	.jumbotron .title p{
+			/*color:palegoldenrod;*/
+			font-size:90%;
+			}
 
 
 
 	.para{
 		font-size:80%;
-	}
+		}
 
-.para p{
-	width:90%;
+	.para p{
+		width:90%;
+		}
 
-	}
 
+
+		.skill-section .right-bar{
+			width:20%;
+			float:left;
+			height:40px;
+			/*background-color:green;*/
+			}
+
+
+	.skill-section .mid-bar{
+			text-align: center;
+			width:60%;
+			height:40px;
+			float:left;
+			color:#fff;
+		/*	background-color:red;*/
+			}
+
+
+		.skill-section .left-bar{
+			width:20%;
+			float:left;
+			height:40px;
+		/*	background-color:green;*/
+			}
+
+
+	.mid-bar h3{
+		margin:auto;
+		margin-top:8px;
+		font-size:120%;
+		}
+
+
+
+
+
+	.skill-section hr{
+		width:90%;
+		}
+
+
+	.skill-section .left-bar hr{
+		float:left;
+		}
+	.skill-section .right-bar hr{
+		float:right;
+		}
 
 }
 
