@@ -74,70 +74,142 @@ header{
 
 .jumbotron{
 	color:#fff;
-	/*background: linear-gradient(-90deg, black, gray);*/
+	background-color:red;
 	background:none;
 	text-align: center;
 	}
 
+
 .jumbotron .title{
 	margin-top:120px;
-	margin-bottom:350px;
+	margin-bottom:220px;
 	}
+
+
+	hr{
+		border-top:1px solid palegoldenrod;
+	}
+	
 
 
 .about-section{
+
 	font-family:georgia,'Josefin Sans', sans-serif;
+	padding:0;
+
+	}
+
+	.about{
+		font-size:200%;
+	}
+
+	#about{
+	/*background-color:blue;*/
+	height:100px;
 	}
 
 
-	.about-section .decoration{
-		background-color:blue;
-	}
+	.about-section #left-hr{
+		width:100%;
+		float:right;
+		}
 
 
-
-
-.about-section .box hr{
-	border-top: 1px solid #9b1a1a;
-	}
-
-	.about-section hr{
+	.about-section #right-hr{
+		width:100%;
 		float:left;
-		width:35%;
-	border-top: 1px solid #9b1a1a;
-	}
-
-
+		}
 	
 
-.about{
-	font-size: 300%;
-	}
 
+	.para{
+		background:rgba(81, 66, 74, 0.25);
+		border-radius: 10px;
+		margin-bottom:200px;
+		}
 
 
 
 .para p{
+	line-height: 1.5;
+	width:80%;
+	margin:auto;
 	margin-top:50px;
 	margin-bottom:50px;
 	font-size: 120%;
+	color:#fff;
+	text-align:center;
+	padding:20px;
 	}
 
 
 
-	.sample-section .box{
-		background-color:#ddd;
-		height:300px;
-		margin:10px;
-		}
+	#tool-container{
+		/*background-color:#ccc;*/
+	}
+#left-iconbar{
+	background-color: #6C6C72;
+	padding:10px;
+	margin-top:10px;
 
-	.sample-section .sample{
-		width:100%;
+}
+
+
+#right-iconbar{
+	background-color:#7b7b83;
+	padding:10px;
+	margin-top:10px;
+
+}
+
+	.software-name{
+		font-size:100%;
+		color:#fff;
+		text-align:center;
+	/*	background-color:red;*/
 		margin:auto;
-		height:200px;
+		margin-top:5px;
+	}
+	
+
+	.icon-container{
+		width:50px;
+		height:50px;
+		margin:auto;
+		}
+	
+
+	.icon-container img{
+		height:100%;
+		width:100%;
 		}
 
-	
+	#column{
+		margin-bottom:40px;
+		}
+
+
+
+	#skills{
+		height:100px;
+		/*background-color:red;*/
+	}
+
+	h4{
+		/*background-color:red;*/
+
+		text-align:center;
+		height:50px;
+		color:#fff;
+		/*border-bottom: 1px solid red;*/
+		}
+
+
+
+
+
+
+
 
 
 
@@ -159,6 +231,29 @@ footer{
 
 
 @media screen and (max-width: 768px){
+
+
+.jumbotron .title{
+	margin-top:120px;
+	margin-bottom:150px;
+	}
+
+
+.jumbotron .title p{
+		/*color:palegoldenrod;*/
+		font-size:90%;
+		}
+
+
+
+	.para{
+		font-size:80%;
+	}
+
+.para p{
+	width:90%;
+
+	}
 
 
 }
