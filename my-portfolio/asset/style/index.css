@@ -5,13 +5,20 @@ box-sizing: border-box;
 }
 
 body{
-	margin:0;
+margin:0;
 padding:0;
 box-sizing: border-box;
-font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-family: 'Josefin Sans', "Helvetica Neue",Helvetica,Arial,sans-serif;
 background: linear-gradient(-90deg, black, #666);
 }
-
+#video-bg-elm{
+	min-width:100%;
+	min-height:100%;
+	margin:auto;
+	position:fixed;
+	z-index:-1000;
+	overflow: hidden;
+	}
 
 header{
 	margin-top:5px;
@@ -24,8 +31,9 @@ header{
 
 
 .navbar{
-	background-color:rgba(58, 59, 73, 0.6);
-
+	/*background-color:rgba(58, 59, 73, 0.6);*/
+	background-color:rgba(145, 255, 231, 0.24);
+	box-shadow:2px 2px rgba(255, 255, 232, 0.1);
 	}
 
 
@@ -86,21 +94,42 @@ header{
 
 
 .jumbotron .title{
-	margin-top:120px;
+	margin-top:100px;
 	margin-bottom:220px;
+	height:200px;
+/*	border:1px solid #73C6B6;*/
+	background-color:rgba(177, 213, 239, 0.11);
+	/*background-color:rgba(140, 243, 234, 0.04);*/
+    border-radius: 20px;
+	box-shadow:1px 1px rgba(255, 255, 232, 0.2);
+	border-radius: 5px;
+	font-family:Bellefair;
 	}
 
 
+	.title h1{
+		margin-top:40px;
+	}
+
+/*.title .row{
+	clear:both;
+	background-color:red;
+	width:80%;
+	margin:auto;
+	}
+*/
+/*
 	hr{
 		border-top:1px solid palegoldenrod;
 		}
-	
+	*/
 
 
 .about-section{
 
 	font-family:georgia,'Josefin Sans', sans-serif;
 	padding:0;
+	background-color:pink;
 
 	}
 
@@ -109,7 +138,7 @@ header{
 		}
 
 	#about{
-	/*background-color:blue;*/
+/*	background-color:blue;*/
 	height:100px;
 	}
 
@@ -124,31 +153,103 @@ header{
 		width:100%;
 		float:left;
 		}
+
+
+	#about-page{
+	/*	background-color:#fff;*/
+		border-radius: 10px;
+		}
 	
+		
 
 
 	.para{
-		background:rgba(81, 66, 74, 0.25);
-		border-radius: 10px;
-		margin-bottom:200px;
+		margin-top:10px;
+		color:#000;
+		border-radius: 15px;
+		background-color:#fff;
+		height:456px;
+		}
+
+
+.para p{
+/*	background-color: red;*/
+	font-family:Josefin Sans;
+	line-height: 1.5;
+	width:70%;
+	margin:auto;
+	font-size: 150%;
+	color:#000;
+	text-align:center;
+	padding-top:40px;
+/*	padding:20px;*/
+	}
+
+
+ /*...............................Image section right panel....................*/
+ /*.............................................................................*/
+
+.image-section-container{
+	background-color:#fff;
+	border-radius:10px;
+	margin-top:10px;
+	}
+	
+
+	#image-section #find-me{
+		margin-top:50px;
+		color:#000;
+		}
+
+	#image-section #profile, #find-me, #social-link{
+		/*background-color:red;*/
+	/*	border:solid black;*/
+		}
+
+	#image-section #profile{
+		height:200px;
+		}
+
+	#image-section .image{
+		margin-top:40px;
+		height:90%;
+		}
+
+
+	#image-section .image img{
+		height:100%;
+		/*background-color:yellow;*/
 		}
 
 
 
-.para p{
-	line-height: 1.5;
-	width:80%;
-	margin:auto;
-	margin-top:50px;
-	margin-bottom:50px;
-	font-size: 120%;
-	color:#fff;
-	text-align:center;
-	padding:20px;
-	}
+	#image-section #social-link{
+		height:150px;
+		}
+
+
+	
+	#image-section #social-link .img{
+		width:80px;
+		height:80px;
+		}
+
+
+		#image-section #social-link .img:hover img{
+			filter:blur(2px) brightness(100%) opacity(90%);
+			transition:1s;
+		}
+
+
+	#image-section #social-link img{
+		height:100%px;
+		width:100%;
+		}
+
 
 
 	.skill-section{
+		margin-top:30px;
 		/*background-color:blue;*/
 		height:70px;
 		}
@@ -185,7 +286,7 @@ header{
 
 			.mid-bar h3{
 				margin:auto;
-				font-size:190%;
+				font-size:250%;
 				}
 
 		.skill-section .left-bar{
@@ -201,7 +302,7 @@ header{
 			margin-top:18px;
 			border:none;
 			height:1px;
-			background-color:palegoldenrod;
+			background-color:#73C6B6;
 			/*background-color:red;*/
 		}
 
@@ -215,16 +316,24 @@ header{
 /*..................icon sections.................*/
 
 
-	#left-iconbar{
-		background-color: #6C6C72;
+#tool-container img{
+	border-radius: 10px;
+	box-shadow:3px 3px rgba(255, 255, 232, 0.2);
+}
+
+
+
+#left-iconbar{
+background: linear-gradient(-90deg, #727278, #797982, #929299, #909099, #7d7d89);
+	/*	background-color: #6C6C72;*/
 		padding:10px;
 		margin-top:10px;
 		}
 
 
 	#right-iconbar{
-		background-color:#7b7b83;
-		padding:10px;
+	background: -webkit-linear-gradient(left, #3c3c42, #a0a0a7, #b5b5be, #a5a5a7, #7b7b82, #7c7c84);
+	 padding:10px;
 		margin-top:10px;
 		}
 
@@ -258,7 +367,7 @@ header{
 
 
 
-	h4{
+	#tool-container h3{
 		/*background-color:red;*/
 
 		text-align:center;
@@ -313,6 +422,26 @@ footer{
 
 
 
+.jumbotron .title{
+	margin-top:50px;
+	margin-bottom:220px;
+	height:150px;
+/*	border:1px solid #73C6B6;*/
+	background-color:rgba(140, 243, 234, 0.04);
+    border-radius: 20px;
+	box-shadow:1px 1px rgba(255, 255, 232, 0.2);
+	border-radius: 5px;
+	font-family:Bellefair;
+	}
+
+
+	.title h1{
+		font-size:240%;
+		margin-top:40px;
+		}
+
+
+/*...........................about me section........................*/
 	.para{
 		font-size:80%;
 		}
@@ -320,6 +449,17 @@ footer{
 	.para p{
 		width:90%;
 		}
+
+	.mid-bar h3{
+		font-size:40px;
+		}
+#social-link .img{
+
+}
+
+
+
+
 
 
 
