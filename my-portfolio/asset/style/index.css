@@ -458,9 +458,28 @@ header{
 	}
 
 
+	#messenger{
+		/*background-color:red;*/
+		margin-top:50px;
+	}
 
+	.messenger-icon{
+		padding-left:30px;
+		color:#fff;
+		font-size:160%;
+		}
+	#icon-l{
+		float:right;
+		}
 
+	#icon-r{
+		float:left;
+		}
 
+	.messenger-icon img{
+		width:30px;
+		height:30px;
+		}
 
 
 
@@ -477,6 +496,8 @@ width:100%;
 	}
 
 .footer-container{
+	width:60%;
+	margin:auto;
 	font-family:Zilla Slab;
 	margin-top:10px;
 	background-color:rgba(173, 188, 187, 0.27);
